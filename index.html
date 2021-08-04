@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-    <title>Site</title>
+    <title>Página Daniela</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="scriptIndex.js"></script>
@@ -11,75 +11,26 @@
 
 <body>
     <ul class="navbar">
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="conhecimentos.html">Conhecimentos</a></li>
-        <li> <a href="cidade.html">Minha cidade</a></li>
-        <li> <a href="contato.html">Contato</a></li>
+        <li> <a href="index.html">Home - Você esta aqui.</a></li>
+        <li> <a href="sobre.html" target="_blank">Sobre Daniela Maria</a></li>
+
     </ul>
+
     <div class="container">
+
         <div class="nome-site">
             <h1>Minha primeira página</h1>
         </div>
         <div class="paragrafo">
             <p>Seja bem-vindo!</p>
             <p> É muito bom ter você aqui. </p>
-            <p> Meu Nome é Daniela Maria, tenho 25 anos e estou terminando o curso de Analise e Desenvolvimento de Sistemas. Quando eu comecei o curso eu nao tinha nenhum conhecimento do mundo de tecnologia
-                <p>Foi uma descoberta incrível! É um universo que você esta em aprendisagem constantemente.</p> Hoje eu ainda estou em aprendisagem, ainda tenho um muita dificuldade de pegar a lógica da progamaçao, Mas busco me aperfeicoar a cada dia...
-            </p>
-            <p> Hoje estou estudando HTML, CSS e JavaScript, Essas três linguagens são a base da progamaçao...</p>
-            <p> O JavaScript eu sei o básico do básico, resumindo é a parte que eu tenho mais dificuldade.s</p>
-        </div>
-        <div class="formulario">
-            <div class="textoMensagem">
-                <p>Quer saber mais sobre mim? Deixe seu contato e uma mensagem.</p>
-            </div>
-
-            <form action="/pagina-processa-dados-do-form" method="post">
-                <div class="nome">
-                    <label for="nome">Nome:</label><br>
-                    <input type="text" id="nome" placeholder="Daniela Maria" required="required" name="nome" />
-                </div>
-                <div class="email">
-                    <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" placeholder="email@gmail.com" name="email" />
-                </div>
-
-                <div class="mensagem">
-                    <label for="msg">Mensagem:</label><br>
-                    <textarea placeholder="Sua mensagem"></textarea>
-
-                    <div id="btnEnviar">
-                    </div>
-                </div>
-
-            </form>
         </div>
 
         <div class="assinatura">
             <address>Construida em Junho de 2021<br>Daniela Maria.</address>
         </div>
     </div>
-    <script>
-        var btn = window.document.getElementById('btnEnviar')
-
-        btn.addEventListener('click', clicar)
-        btn.addEventListener('mouseenter', entrar)
-        btn.addEventListener('mouseout', sair)
-
-        function clicar() {
-            btn.innerHTML = 'Clicou!'
-            btn.style.background = 'red'
-        }
-
-        function entrar() {
-            btn.innerHTML = 'Entrou!'
-        }
-
-        function sair() {
-            btn.innerHTML = 'Saiu!'
-            btn.style.background = 'green'
-        }
-    </script>
+    </div>
 </body>
 
 </html>

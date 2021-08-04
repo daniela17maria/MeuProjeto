@@ -32,7 +32,7 @@
     
     a:hover {
         text-decoration: underline;
-        color: rgb(71, 13, 231)
+        color: rgb(70, 41, 233);
     }
     /* titulos principal de cada página*/
     
@@ -97,7 +97,7 @@
         padding: 0;
         margin: 0;
         position: absolute;
-        top: 15em;
+        top: 18em;
         left: 1em;
         width: 9em
     }
@@ -106,7 +106,7 @@
         padding: 0;
         margin: 0;
         position: absolute;
-        top: 24em;
+        top: 26em;
         left: 1em;
         width: 9em
     }
@@ -126,7 +126,8 @@
     .nome,
     .email,
     .mensagem,
-    .enviar {
+    .enviar,
+    .links {
         text-align: center;
         margin-top: 15px;
     }
@@ -174,11 +175,10 @@
         padding: 25px;
         text-align: justify;
     }
-    
-    #btnEnviar {
+    /* #btnEnviar {
         background-color: darkgreen;
         color: white;
         width: 200px;
         height: 40px;
         text-align: justify;
-    }
+    }*/
