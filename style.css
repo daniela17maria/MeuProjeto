@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
+.body {
     font-size: 16px;
     background-color: #615F73;
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -11,58 +6,25 @@ body {
 
 .menu {
     list-style: none;
-    border: 1px solid #c0c0c0;
-    float: left;
-}
-
-.menu li {
-    position: relative;
-    float: left;
-    border-right: 1px solid #c0c0c0;
-}
-
-.menu li a {
-    color: #333;
-    text-decoration: none;
-    padding: 5px 10px;
-    display: block;
-}
-
-.menu li a:hover {
-    background: #333;
-    color: #fff;
-}
-
-.menu li ul {
-    position: absolute;
-    top: 25px;
-    left: 0;
-    background-color: #fff;
-    display: none;
-}
-
-ul.navbar {
     padding: 0;
     margin: 0;
-}
-
-ul.navbar li {
-    background: #E9ECEF;
-    margin: 0.5em 0;
-    padding: 0.5em;
-}
-
-ul.navbar a {
+    font-size: 16px;
+    border: 1px solid #888484;
+    margin-top: 1px;
+    width: 100%;
+    padding-left: 11em;
     text-decoration: #000000;
 }
 
-a:visited {
-    color: #000000;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: rgb(70, 41, 233);
+.nome {
+    list-style-type: none;
+    position: absolute;
+    top: 0.5em 0;
+    left: 1em;
+    width: em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    font-size: 29px;
 }
 
 
@@ -71,15 +33,6 @@ a:hover {
 h1 {
     font-family: Georgia, "Times New Roman", Times, serif;
     align-items: center;
-}
-
-.menu {
-    max-width: 1400px;
-    margin-top: 5px;
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .nome-site {
