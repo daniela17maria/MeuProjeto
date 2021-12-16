@@ -1,7 +1,6 @@
-h1 {
-    font-family: 'Berkshire Swash';
-}
-
-label {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.jumbotron-fluid {
+    background: url("gato-home.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
 }
