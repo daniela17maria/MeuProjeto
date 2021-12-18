@@ -1,6 +1,46 @@
-.jumbotron-fluid {
+#titulo-home {
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+p {
+    font-family: 'Josefin Sans';
+    font-size: 30px;
+}
+
+#servicos {
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#contato {
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#home {
     background: url("gato-home.jpg") no-repeat center center;
     background-size: cover;
     height: 400px;
     position: relative;
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#contato {
+    background: url("cachorros.jpg") no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#sobre {
+    background: url("cao-rei.jpg") no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
 }
