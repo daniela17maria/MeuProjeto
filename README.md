@@ -1,3 +1,3 @@
-Projeto Clinica NewPet.
+Meu nome é Daniela Maria, estou desenvolvendo esse projeto para mostrar um pouco dos meus conhecimentos. 
 
-Esse projeto foi criado para mostrar um pouco do meu conhecimento em Bootstrap.
+Projeto/Site de uma clinica veterinaria
