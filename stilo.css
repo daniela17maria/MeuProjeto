@@ -24,7 +24,7 @@ p {
 }
 
 #home {
-    background: url("gato-home.jpg") no-repeat center center;
+    background: url("./imagens/gato-home.jpg") no-repeat center center;
     background-size: cover;
     height: 400px;
     position: relative;
@@ -33,7 +33,7 @@ p {
 }
 
 #contato {
-    background: url("cachorros.jpg") no-repeat center center;
+    background: url("./imagens/cachorros.jpg") no-repeat center center;
     background-size: cover;
     height: 400px;
     position: relative;
@@ -42,7 +42,7 @@ p {
 }
 
 #sobre {
-    background: url("racao-pet.jpg") no-repeat center center;
+    background: url("./imagens/racao-pet.jpg") no-repeat center center;
     background-size: cover;
     height: 400px;
     position: relative;
@@ -51,7 +51,7 @@ p {
 }
 
 #servicos {
-    background: url("mao-e-pata.jpg") no-repeat center center;
+    background: url("./imagens/mao-e-pata.jpg") no-repeat center center;
     text-align: center;
     background-size: cover;
     height: 300px;
@@ -61,7 +61,7 @@ p {
 }
 
 #rodape {
-    background: url("gato.jpg") no-repeat center center;
+    background: url("./imagens/gato.jpg") no-repeat center center;
     text-align: center;
     background-size: cover;
     height: 400px;
