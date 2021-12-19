@@ -3,9 +3,14 @@
     font-family: 'Berkshire Swash', cursive;
 }
 
+#descricao {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+}
+
 p {
     font-family: 'Josefin Sans';
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #servicos {
@@ -37,10 +42,30 @@ p {
 }
 
 #sobre {
-    background: url("cao-rei.jpg") no-repeat center center;
+    background: url("racao-pet.jpg") no-repeat center center;
     background-size: cover;
-    height: 500px;
+    height: 400px;
     position: relative;
     font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#servicos {
+    background: url("mao-e-pata.jpg") no-repeat center center;
+    text-align: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    font: 4em;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+#rodape {
+    background: url("gato.jpg") no-repeat center center;
+    text-align: center;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    font: 2em;
     font-family: 'Berkshire Swash', cursive;
 }

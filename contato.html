@@ -25,11 +25,9 @@
                 <a class="p-2 text-dark" href="nossosservissos.html">Serviços</a>
                 <a class="p-2 text-dark" href="marcarconsulta.html">Marcar consulta</a>
                 <a class="p-2 text-dark" href="sobrenos.html">Sobre nós</a>
-
             </nav>
             <a class="btn btn-outline-success" href="contato.html">Contato</a>
     </header>
-    <!-- Principal jumbotron, para a principal mensagem de marketing ou call to action -->
     <main role="main">
         <div class="container-fluid">
             <div class="jumbotron-fluid mw-100" id="contato">
@@ -39,14 +37,70 @@
                     <label class="lead"></label>
                 </div>
             </div>
+            <main role="main" class="container pt-3 mt-3 pb-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class=" text-center"><strong>Nos envie uma mensagem.</strong></h1>
+                        <hr>
+                        <div class="alert alert-success text-center" role="alert">
+                            Fique a vontade para deixar sua mensagem. Sua opinião é muito importante para nós.
+                        </div>
+                        <hr>
+                        <form>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label><strong>Nome </strong></label>
+                                        <input type="text" id="nome" class="form-control" placeholder="Nome completo" name="nome">
+                                    </div>
+                                </div>
 
-            <!-- /container -->
-            <div class="jumbotron ">
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label><strong>Celular</strong></label>
+                                        <input type="phone" class="form-control" placeholder="00 0 00000000" name="celular" onkeypress="$(this).mask('celular');">
+                                    </div>
+                                </div>
+
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label><strong>E-mail </strong></label>
+                                        <input type="email" class="form-control" placeholder="E-mail válido" name="endereco">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="mb-3">
+                                        <label><strong>Nome do Pet</strong></label>
+                                        <input type="nome" class="form-control" placeholder="Nome do pet" name="nome">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1"><strong>Deixe uma mensagem</strong> </label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mt-5 mb-3 py-1 text-center align-items-center">
+                                    <button type="submit " class="btn btn-success ">ENVIAR </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+            <div class="jumbotron " id="rodape-contato">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h3>Contato</h3>
+                    <div class="col-lg-4">
                         <p class="text-center"> 📞61 9 9646-8394<br>📧daniela17maria@gmail.com
-                        </p>
+                    </div>
+                    <div class="col-lg-4">
+
+                    </div>
+                    <div class="col-lg-4">
 
                     </div>
                 </div>
