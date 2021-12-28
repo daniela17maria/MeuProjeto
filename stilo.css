@@ -1,71 +1,81 @@
-#titulo-home {
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#descricao {
-    font-family: 'Josefin Sans';
-    font-size: 25px;
-}
-
-p {
-    font-family: 'Josefin Sans';
-    font-size: 20px;
-}
-
-#servicos {
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#contato {
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#home {
-    background: url("./imagens/gato-home.jpg") no-repeat center center;
-    background-size: cover;
-    height: 400px;
-    position: relative;
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#contato {
-    background: url("./imagens/cachorros.jpg") no-repeat center center;
-    background-size: cover;
-    height: 400px;
-    position: relative;
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#sobre {
-    background: url("./imagens/racao-pet.jpg") no-repeat center center;
-    background-size: cover;
-    height: 400px;
-    position: relative;
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#servicos {
-    background: url("./imagens/mao-e-pata.jpg") no-repeat center center;
-    text-align: center;
-    background-size: cover;
-    height: 300px;
-    position: relative;
-    font: 4em;
-    font-family: 'Berkshire Swash', cursive;
-}
-
-#rodape {
-    background: url("./imagens/gato.jpg") no-repeat center center;
-    text-align: center;
-    background-size: cover;
-    height: 400px;
-    position: relative;
-    font: 2em;
-    font-family: 'Berkshire Swash', cursive;
-}
+ #titulo-home {
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #descricao {
+     font-family: 'Josefin Sans';
+     font-size: 25px;
+ }
+ 
+ #titulo-apresentacao {
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #descricao-apresentacao {
+     font-family: 'Josefin Sans';
+     font-size: 20px;
+ }
+ 
+ p {
+     font-family: 'Josefin Sans';
+     font-size: 20px;
+ }
+ 
+ #servicos {
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #contato {
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #home {
+     background: url("./imagens/gato-home.jpg") no-repeat center center;
+     background-size: cover;
+     height: 400px;
+     position: relative;
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #contato {
+     background: url("./imagens/cachorros.jpg") no-repeat center center;
+     background-size: cover;
+     height: 400px;
+     position: relative;
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #sobre {
+     background: url("./imagens/cachorro.jpg") no-repeat center center;
+     background-size: cover;
+     height: 600px;
+     position: relative;
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ p {
+     font-family: 'Josefin Sans';
+     font-size: 40px;
+ }
+ 
+ #servicos {
+     background: url("./imagens/mao-e-pata.jpg") no-repeat center center;
+     text-align: center;
+     background-size: cover;
+     height: 300px;
+     position: relative;
+     font: 4em;
+     font-family: 'Berkshire Swash', cursive;
+ }
+ 
+ #rodape {
+     font-family: 'Josefin Sans';
+     font-size: 20px;
+ }
