@@ -1,3 +1,3 @@
-Projeto Clinica NewPet.
+Projeto/Site de uma Clínica Veterinária.
 
-Esse projeto foi criado para mostrar um pouco do meu conhecimento em Bootstrap.
+Projeto Desenvolvido em bootstrap, Html e CSS.
