@@ -1,9 +1,11 @@
  #titulo-home {
+     text-align: right;
      font: 4em;
      font-family: 'Berkshire Swash', cursive;
  }
  
  #descricao {
+     text-align: right;
      font-family: 'Josefin Sans';
      font-size: 25px;
  }
@@ -36,7 +38,7 @@
  #home {
      background: url("./imagens/gato-home.jpg") no-repeat center center;
      background-size: cover;
-     height: 400px;
+     height: 500px;
      position: relative;
      font: 4em;
      font-family: 'Berkshire Swash', cursive;
@@ -45,7 +47,7 @@
  #contato {
      background: url("./imagens/cachorros.jpg") no-repeat center center;
      background-size: cover;
-     height: 400px;
+     height: 600px;
      position: relative;
      font: 4em;
      font-family: 'Berkshire Swash', cursive;
@@ -54,7 +56,7 @@
  #sobre {
      background: url("./imagens/cachorro.jpg") no-repeat center center;
      background-size: cover;
-     height: 600px;
+     height: 450px;
      position: relative;
      font: 4em;
      font-family: 'Berkshire Swash', cursive;
