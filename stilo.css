@@ -42,6 +42,7 @@
      position: relative;
      font: 4em;
      font-family: 'Berkshire Swash', cursive;
+     opacity: 30;
  }
  
  #contato {
@@ -54,7 +55,7 @@
  }
  
  #sobre {
-     background: url("./imagens/cachorro.jpg") no-repeat center center;
+     background: url("./imagens/gato-perfil.jpg") no-repeat center center;
      background-size: cover;
      height: 450px;
      position: relative;
